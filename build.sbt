@@ -38,8 +38,8 @@ releaseProcess := Seq[ReleaseStep](
   inquireVersions,
   runClean,
   runTest,
-  setReleaseVersion,
   setNextVersion,
+  setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
 )
