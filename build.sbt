@@ -14,7 +14,7 @@ lazy val root = (project in file(".")).
 //val dwDockerRegistry = "put-your-docker-registry-here"
 //dockerRepository := Some(dwDockerRegistry)
 //dockerBaseImage := s"$dwDockerRegistry/msi-base-image:latest"
-
+/*
 releaseProcess := Seq.empty[ReleaseStep]
 
 releaseProcess ++= (if (sys.env.contains("RELEASE_VERSION_BUMP"))
@@ -40,4 +40,4 @@ releaseProcess := Seq[ReleaseStep](
   setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
-)
+)*/
