@@ -31,6 +31,7 @@ releaseProcess ++= (if (sys.env.contains("RELEASE_PUBLISH"))
                       Seq[ReleaseStep](inquireVersions, setNextVersion, commitNextVersion)
                     else Seq.empty[ReleaseStep])
 
+*/
 
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,
@@ -40,4 +41,4 @@ releaseProcess := Seq[ReleaseStep](
   setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
-)*/
+)
