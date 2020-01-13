@@ -43,4 +43,5 @@ releaseProcess := Seq[ReleaseStep](
   tagRelease,
   setNextVersion,
   commitNextVersion,
+  pushChanges,
 )
